@@ -1,0 +1,15 @@
+{
+  "name": "gulp-wavesurfer-peakbuilder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Allfree",
+  "homepage": "https://github.com/benallfree/gulp-wavesurfer-peakbuilder",
+  "license": "ISC",
+  "dependencies": {
+    "wavesurfer-peakbuilder": "^1.0.0"
+  }
+}
