@@ -1,7 +1,7 @@
-var through = require('through2');
+import through  from 'through2';
 var exec = require('child_process').exec;
-var tmp = require('tmp');
-var pb = require('wavesurfer-peakbuilder');
+import tmp from 'tmp'
+import pb from 'wavesurfer-peakbuilder'
  
 module.exports = function(options = {}) {
 
