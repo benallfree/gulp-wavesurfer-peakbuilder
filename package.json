@@ -2,14 +2,23 @@
   "name": "gulp-wavesurfer-peakbuilder",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile",
+    "watch": "watch 'yarn compile' ./src"
   },
   "author": "Ben Allfree",
   "homepage": "https://github.com/benallfree/gulp-wavesurfer-peakbuilder",
   "license": "ISC",
   "dependencies": {
+    "child_process": "^1.0.2",
+    "through2": "^2.0.3",
+    "tmp": "^0.0.31",
     "wavesurfer-peakbuilder": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "watch": "^1.0.2"
   }
 }
