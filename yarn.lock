@@ -1226,8 +1226,8 @@ watch@^1.0.2:
     minimist "^1.2.0"
 
 wavesurfer-peakbuilder@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/wavesurfer-peakbuilder/-/wavesurfer-peakbuilder-1.0.0.tgz#808c3e3bf3602a3f360f35a40cbdcb2208913e5e"
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/wavesurfer-peakbuilder/-/wavesurfer-peakbuilder-1.0.1.tgz#6d8caa5900f8923ff51377b58f3268e00ad0aea3"
   dependencies:
     lodash "^4.17.4"
     tmp "^0.0.31"
