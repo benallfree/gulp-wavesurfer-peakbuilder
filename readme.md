@@ -13,15 +13,12 @@ yarn add gulp-wavesurfer-peakbuilder --dev
 'use strict';
 
 import gulp from 'gulp';
-import peakbuilder from 'gulp-wavesurfer-peakbuilder';
+import peakbuilder from 'gulp-wavesurfer-peakbuilder'
 
 gulp.task('peaks', () => {
-  gulp.src(['./**/*.mp3'])
+  gulp.src(['../**/*.mp3'])
     .pipe(peakbuilder())
     .pipe(gulp.dest("./peaks"))
         
 });
-
-#
-
 ```
