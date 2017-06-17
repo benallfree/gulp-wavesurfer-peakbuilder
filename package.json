@@ -1,6 +1,6 @@
 {
   "name": "gulp-wavesurfer-peakbuilder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "child_process": "^1.0.2",
     "through2": "^2.0.3",
     "tmp": "^0.0.31",
-    "wavesurfer-peakbuilder": "^1.0.0"
+    "wavesurfer-peakbuilder": "^1.0.3"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
